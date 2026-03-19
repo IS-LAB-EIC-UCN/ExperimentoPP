@@ -1,16 +1,41 @@
-# Experiencia 1
+# Experiencia 1: Meteorología
 
-## Duración
-40 minutos.
+## Contexto
+Una estación meteorológica registra mediciones de temperatura durante un día.  
+Cada medición incluye:
 
-## Enunciado
-Durante los primeros 40 minutos del experimento, la organización será la siguiente:
+- hora del registro,
+- temperatura en grados Celsius.
 
-- **GA:** trabaja en modalidad **PP (Pair Programming)**.
-- **GB:** trabaja en modalidad **I (Individual)**.
+El objetivo es desarrollar un programa que procese estos datos y entregue un resumen básico del comportamiento de la temperatura.
 
-## Indicaciones
-- Los integrantes del **GA** deben trabajar colaborativamente siguiendo la dinámica de pair programming.
-- Los integrantes del **GB** deben resolver la actividad sin aplicar la dinámica formal de pair programming.
-- Todos los equipos deben desarrollar la misma tarea de programación definida por el docente.
-- Al finalizar este bloque, cada equipo debe detener su trabajo y prepararse para el cambio de modalidad de la segunda experiencia.
+## Objetivo
+Implementar un programa que lea un conjunto de registros meteorológicos y calcule información relevante a partir de ellos.
+
+## Entrada
+El programa debe leer un archivo de texto con el siguiente formato:
+
+- La primera línea contiene un número entero `N`, que indica la cantidad de registros.
+- Las siguientes `N` líneas contienen:
+    - una hora en formato `HH:MM`
+    - una temperatura decimal
+
+## Ejemplo de entrada
+```text
+5
+08:00 14.5
+10:00 16.2
+12:00 21.0
+15:00 24.3
+18:00 19.1
+```
+
+## Salida esperada
+
+El programa debe mostrar:
+
+1. La temperatura máxima registrada.
+2. La temperatura mínima registrada.
+3. El promedio de temperaturas.
+4. La hora asociada a la temperatura máxima.
+5. La hora asociada a la temperatura mínima.
