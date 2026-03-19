@@ -44,7 +44,7 @@ De este modo, ambos grupos pasan por ambas modalidades de trabajo.
 | Experiencia | Modalidad G-A          | Modalidad G-B         | Descripción temporal                |
 |------------|------------------------|-----------------------|-------------------------------------|
 | E1         | Pair Programming (PP) https://forms.gle/8NLcqzDg8JoMAq4e9 | Individual (I) https://forms.gle/rLMce2B2kRSZR68A7       | Primeros 40 minutos (16:20 - 17:00) |
-| E2         | Individual (I) https://forms.gle/AHLNMKsANma5z3HbA        | Pair Programming (PP) https://forms.gle/Gdx5dpomYkUsfwxX8| Segundos 40 minutos (17:05 - 17:00) |
+| E2         | Individual (I) https://forms.gle/AHLNMKsANma5z3HbA        | Pair Programming (PP) https://forms.gle/Gdx5dpomYkUsfwxX8| Segundos 40 minutos (17:05 - 17:45) |
 
 
 ## Reglas generales
